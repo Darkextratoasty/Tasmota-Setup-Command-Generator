@@ -19,3 +19,11 @@ Note: these are the settings that needed to be changed for my particular devices
 ### Custom ESP8266-DS18B20 Node
 I should publically release this eventually, but for now this is for my own notes: https://github.com/Darkextratoasty/ESP-Nodes 
 `{"NAME":"ESP Node","GPIO":[0,0,0,0,640,608,0,0,1312,1313,1314,0,0,0],"FLAG":0,"BASE":18}`
+
+## Example Timezone Values
+### America/Detroit
+```
+  ntp_timezone: "99"
+  ntp_timestd: "0,1,11,1,2,-300"
+  ntp_timedst: "0,2,3,1,2,-240"
+```
