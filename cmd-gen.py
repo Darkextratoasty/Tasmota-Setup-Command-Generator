@@ -3,7 +3,7 @@ import yaml
 with open("config.yml", "r") as stream:
     try:
         config = yaml.safe_load(stream)
-        cmd = "Backlog SSId " + config['wifi_ssid']
+        cmd = "Backlog SSId1 " + config['wifi_ssid']
         cmd += "; Password " + config['wifi_password']
         cmd += "; Hostname " + config['device_hostname']
         cmd += "; MqttHost " + config['mqtt_host']
