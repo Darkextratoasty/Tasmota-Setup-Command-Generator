@@ -8,7 +8,6 @@
   mqtt_password: "mqtt-password"
   mqtt_topic: "mqtt-topic"
   device_name: "Device-Name"
-  friendly_name: "Device Name"
 
   #only set this if your device will not be able to access the internet
   #and if you have a custom NTP server that it should get time from instead
@@ -21,4 +20,4 @@
   ntp_timedst: "timezone-dst-array"
 
   #for constructing a template, check https://tasmota.github.io/docs/Templates/#anatomy-of-a-template
-  template: '{"NAME":"Generic","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
+  template: '{"NAME":"Friendly Name","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}'

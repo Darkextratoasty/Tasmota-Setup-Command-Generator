@@ -12,7 +12,6 @@ with open("config.yml", "r") as stream:
         cmd += "; MqttPassword " + config['mqtt_password']
         cmd += "; Topic " + config['mqtt_topic']
         cmd += "; DeviceName " + config['device_name']
-        cmd += "; FriendlyName " + config['friendly_name']
         if config['configure_ntp']:
             cmd += "; NtpServer1 " + config['ntp_server']
             cmd += "; Timezone " + config['ntp_timezone']
