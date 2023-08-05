@@ -1,0 +1,24 @@
+---
+  wifi_ssid: "wifissid"
+  wifi_password: "wifipassword"
+  device_hostname: "device-name"
+  mqtt_host: "mqtt-broker-ip/hostname"
+  mqtt_port: "1883"
+  mqtt_username: "mqtt-username"
+  mqtt_password: "mqtt-password"
+  mqtt_topic: "mqtt-topic"
+  device_name: "Device-Name"
+  friendly_name: "Device Name"
+
+  #only set this if your device will not be able to access the internet
+  #and if you have a custom NTP server that it should get time from instead
+  configure_ntp: False
+  #only needed if configure_ntp is True
+  #for values, check https://tasmota.github.io/docs/Timezone-Table/
+  ntp_server: "ntp-server-ip/hostname"
+  ntp_timezone: "timezone-number"
+  ntp_timestd: "timezone-std-array"
+  ntp_timedst: "timezone-dst-array"
+
+  #for constructing a template, check https://tasmota.github.io/docs/Templates/#anatomy-of-a-template
+  template: '{"NAME":"Generic","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
