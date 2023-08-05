@@ -1,4 +1,4 @@
-# backlog-cmd-gen
+# Tasmota-Setup-Command-Generator
 ## How to use
 - Install Tasmota on your device using the [webinstaller](https://tasmota.github.io/install/).
 - Once it installs, click "Next", then skip WiFi setup.
