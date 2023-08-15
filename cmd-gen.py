@@ -18,6 +18,7 @@ with open("config.yml", "r") as stream:
             cmd += "; TimeStd " + config['ntp_timestd']
             cmd += "; TimeDst " + config['ntp_timedst']
         cmd += "; Template " + config['template']
+        cmd += "; SetOption8 1"
         cmd += "; Module 0"
 
         print(cmd)
